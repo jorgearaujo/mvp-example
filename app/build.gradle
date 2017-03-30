@@ -29,3 +29,16 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile(project(":mvp"))
 }
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.uphyca.gradle:gradle-android-aspectj-plugin:0.9.+'
+        classpath 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    }
+}
+
+apply plugin: 'android-aspectj'

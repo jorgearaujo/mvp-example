@@ -9,6 +9,6 @@ public class Main2ViewHolder extends MainViewHolder {
 
     @Override
     public int getLayout() {
-        return R.layout.activity_main;
+        return R.layout.activity_main2;
     }
 }

@@ -21,8 +21,8 @@ public class MyApplication extends Application {
 		new BindingConfiguration() {
 			@Override
 			public void configure() {
-				from(IMainView.class).to(MainFragment.class).add();
-				//from(IMainView.class).to(Main2Fragment.class).add();
+				//from(IMainView.class).to(MainFragment.class).add();
+				from(IMainView.class).to(Main2Fragment.class).add();
 				from(IMainPresenter.class).to(MainPresenter.class).add();
 			}
 		}.configure();
